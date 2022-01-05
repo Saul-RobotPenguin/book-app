@@ -69,6 +69,8 @@ footer {
   align-items: center;
   gap: 20px;
 
+  border: 5px solid var(--secondary);
+
   /* outline: 2px solid var(--secondary); */
 }
 .book-img {
@@ -92,4 +94,9 @@ img {
 .container {
   padding-top: 100px;
   padding-bottom: 100px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
 }
