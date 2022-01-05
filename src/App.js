@@ -23,10 +23,10 @@ function App() {
   return (
     <>
       <Header />
-
-      {/* Book Component Here */}
-      <Book book={book} />
-
+      <div className="container">
+        {/* Book Component Here */}
+        <Book book={book} />
+      </div>
       <Footer />
     </>
   );

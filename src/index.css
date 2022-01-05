@@ -69,7 +69,7 @@ footer {
   align-items: center;
   gap: 20px;
 
-  outline: 2px solid var(--secondary);
+  /* outline: 2px solid var(--secondary); */
 }
 .book-img {
   /* outline: 2px solid var(--secondary); */
@@ -88,4 +88,8 @@ img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+.container {
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
