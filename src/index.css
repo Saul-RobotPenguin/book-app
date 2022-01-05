@@ -11,6 +11,9 @@ body {
   box-sizing: border-box;
   position: relative;
 
+  display: flex;
+  flex-direction: column;
+
   font-family: Roboto, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -54,4 +57,17 @@ footer {
   font-size: 1.5em;
 
   box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.2);
+}
+.book {
+  margin: 0 auto;
+  width: 450px;
+  height: 400px;
+  background-color: var(--primary);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+img {
+  max-width: 100%;
 }
